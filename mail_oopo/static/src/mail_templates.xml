@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template t-name="mail_oopo.ClearConversation" t-inherit="mail.DiscussSidebarCategoryItem" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[contains(@t-attf-class, 'o_DiscussSidebarCategoryItem_commands')]" position="inside">
+            <div>
+                <t t-if="categoryItem.hasClearCommand">
+                    <div t-attf-class="o_DiscussSidebarCategoryItem_command fa fa-trash {{ o_DiscussSidebarCategoryItem_hoverItem }}" t-on-click="categoryItem.onClickClearConversation" title="Clear Conversations" role="img"/>
+                </t>
+            <div/>
+        </xpath>
+    </template>
+</odoo>

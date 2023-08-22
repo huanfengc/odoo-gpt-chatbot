@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template t-name="mail_oopo.ModelDropdown" t-inherit="mail.ThreadViewTopbar" t-inherit-mode="extension" owl="1">
+        <t t-if="threadViewTopbar">
+            <xpath expr="//div[contains(@t-attf-class, 'o_ThreadViewTopbar_title')]" position="inside">
+                <t t-if="threadViewTopbar.thread and threadViewTopbar.thread.displayName === 'OdooBot'">
+                    <select class="o_ThreadViewTopbar_dropdown form-select" t-att-value="threadViewTopbar.thread.selectedGPTModel" t-on-change="threadViewTopbar.thread.onClickChangeModel">
+                        <option value="gpt-3.5-turbo-0613">4k Context Window</option>
+                        <option value="gpt-3.5-turbo-16k">16k Context Window</option>
+                        <option value="gpt-4">GPT4 8k</option>
+                    </select>
+                </t>
+            </xpath>
+        </t>
+    </template>
+</odoo>

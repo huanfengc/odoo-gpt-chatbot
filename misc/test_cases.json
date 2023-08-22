@@ -1,0 +1,60 @@
+{
+    "read": [
+        {
+            "input": "What are my top 3 sales orders?",
+            "required_modules": ["sale", "sale_management"],
+            "difficulty": 1
+        },
+        {
+            "input": "What is the address of Marc Demo",
+            "required_modules": ["base"],
+            "difficulty": 1
+        }
+    ],
+    "write": [
+        {
+            "input": "Create a new sales order for Gemini Furniture",
+            "required_modules": ["sale", "sale_management"],
+            "difficulty": 2
+        },
+        {
+            "input": "Create a new sales order for Deco Addict with 10 units of Corner Desk Right Sit",
+            "required_modules": ["sale", "sale_management"],
+            "difficulty": 2
+        },
+        {
+            "input": "Create a new customer named John Doe",
+            "required_modules": ["base"],
+            "difficulty": 2
+        },
+        {
+            "input": "Schedule a meeting with Marc Demo for next week",
+            "required_modules": ["calendar"],
+            "difficulty": 2
+        }
+    ],
+    "update": [
+        {
+            "input": "Give Marc Demo the address 123 Main Street",
+            "required_modules": ["base"],
+            "difficulty": 3
+        },
+        {
+            "input": "Update the meeting with Marc Demo to be tomorrow",
+            "required_modules": ["calendar"],
+            "difficulty": 3
+        }
+    ],
+    "delete": [
+        {
+            "input": "Cancel my meeting with Marc Demo",
+            "required_modules": ["calendar"],
+            "difficulty": 4
+        },
+        {
+            "input": "Delete the most recent manufacturing order",
+            "required_modules": ["mrp"],
+            "difficulty": 4
+        }
+    ]
+}
