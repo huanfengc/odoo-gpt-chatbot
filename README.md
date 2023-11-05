@@ -6,8 +6,8 @@ I have done this project in collaboration with [Philip Snyder](https://www.linke
 
 ## Usage
 
-Set this folder in your addons path
+1. Place the ```/mail_oopo``` folder in the ```/addons``` directory where Odoo is installed.
 
-discuss_oopo will get loaded (because it has __init__) and everything else should be ignored
+2. ```mail_oopo``` as a module would get loaded once Odoo is launched and ```mail_oopo``` is installed in the ```Applications```.
 
-misc can store extra utility/testing scripts
+3. Extra utility/testing scripts are stored in ```/misc``` directory.
