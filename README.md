@@ -2,7 +2,7 @@
 
 ## Claim
 
-I have done this project in collaboration with [Philip Snyder](https://www.linkedin.com/in/philip-snyder-/) and [Dheeraj Gharde](https://www.linkedin.com/in/dheeraj-gharde/) during our Software Engineer Internship at Odoo Inc in summer 2023. In particular,the front-end part is mostly contributed by Philip.
+I have done this project in collaboration with [Philip Snyder](https://www.linkedin.com/in/philip-snyder-/) and [Dheeraj Gharde](https://www.linkedin.com/in/dheeraj-gharde/) during our Software Engineer Internship at Odoo Inc in summer 2023. In particular, the front-end part is mostly contributed by Philip.
 
 ## Usage
 
